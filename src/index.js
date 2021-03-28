@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Keshav from "./index";
 //start of greeting message
 const date = new Date();
 const hour = date.getHours();
@@ -20,9 +21,12 @@ if (hour < 12) {
 }
 
 ReactDOM.render(
-  <h1 className="heading" style={customstyle}>
-    {message}
-  </h1>,
+  <div>
+    <h1 className="heading" style={customstyle}>
+      {message}
+    </h1>
+    <Keshav />
+  </div>,
   document.getElementById("root")
 );
 //end of greeting message
