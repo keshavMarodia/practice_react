@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Keshav from "./index";
+import Keshav from "./india";
 //start of greeting message
 const date = new Date();
 const hour = date.getHours();
@@ -26,7 +26,7 @@ ReactDOM.render(
       {message}
     </h1>
     <Keshav />
-  </div>,
+    </div>,
   document.getElementById("root")
 );
 //end of greeting message
